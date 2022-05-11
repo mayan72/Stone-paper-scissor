@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(136, 188, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/* .b1 .b2 .b3{
+  height: 300px;
+  width: 300px;
+  padding: 100px;
+}
+.b1{
+    background-image: url("rock.jpg");
+    background-repeat: no-repeat;
+} */
+
+button{
+  height: 200px;
+  width: 200px;
+  top: 400px;
+  left: 100px;
+  margin: 50px;
+  border-radius: 200px solid white;
+}
+.box{
+  position: fixed;
+  top: 200px;
+}
+.b1{
+  background-image: url('rock.jpg');
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  font-size: 1rem;
+  border-color: rgb(235, 241, 247);
+  border-radius: 15px rgb(196, 194, 194) solid;
+}
+.b2{
+  background-image: url('paper.jpg');
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  font-size: 1rem;
+  border-color: rgb(235, 241, 247);
+  border-radius: 15px rgb(196, 194, 194) solid;
+}
+.b3{
+  background-image: url('th.jpg');
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  font-size: 1rem;
+  border-color: rgb(235, 241, 247);
+  border-radius: 15px rgb(196, 194, 194) solid;
+}
